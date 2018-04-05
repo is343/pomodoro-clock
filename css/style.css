@@ -1,0 +1,84 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    padding: 0;
+    font-size: 16pt;
+    background: #353c4a;
+    /* what we want to transition (all properties), how long */
+    transition: all 0.4s;
+    color: #e0e6e9;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.during-session {
+    background: #6A9113;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, black, #6A9113);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, black, #6A9113);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.during-break {
+    background: #26D0CE;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, black, #26D0CE);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, black, #26D0CE);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.break-over {
+    background: #EB5757;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, black, #EB5757);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, black, #EB5757);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 40px auto;
+    height: 230px;
+}
+
+.hidden {
+    display: none;
+}
+
+.blink {
+    color: rgba(0, 0, 0, 0);
+    transition: all 0.15s;
+}
+
+#session-timer, #minutes {
+    font-size: 30pt;
+    margin: 0;
+    padding: 0;
+    /*border: solid 1px #353c4a;*/
+}
+
+#alert {
+    font-size: 30pt;
+    margin: 0;
+    padding: 0;
+}
+
+#reset {
+  background-color: red;
+  border: 2px solid darkred;
+}
+
+footer{
+    font-size: 8pt;  
+}
